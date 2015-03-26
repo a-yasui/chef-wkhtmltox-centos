@@ -10,7 +10,7 @@
 FILENAME='wkhtmltox-0.12.2.1_linux-centos6-amd64.rpm'
 SHASUM='00097422ec2c21c33e22c41123bb2e1012a57b0e820bedef7e283882f7c15df6'
 
-%w{ld-linux.so.2 xorg-x11-fonts-75dpi xorg-x11-fonts-Type1 ipa-gothic-fonts ipa-pgothic-fonts ipa-pmincho-fonts ipa-mincho-fonts}.each do |name|
+%w{glibc glibc-devel glibc-headers glibc-common xorg-x11-fonts-75dpi xorg-x11-fonts-Type1 ipa-gothic-fonts ipa-pgothic-fonts ipa-pmincho-fonts ipa-mincho-fonts}.each do |name|
   package name do
     action :install
   end

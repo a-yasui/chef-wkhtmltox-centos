@@ -1,7 +1,13 @@
-yum CHANGELOG
-=============
+chef-wkhtmltox CHANGELOG
+========================
 
 Create.
+
+0.1.0.1
+--------
+
+- [a.yasui] - update the directive and files.
+- [a.yasui] - bugfix: not to run. ;-p
 
 0.1.0
 -----

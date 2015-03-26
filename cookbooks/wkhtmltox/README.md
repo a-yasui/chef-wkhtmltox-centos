@@ -1,5 +1,0 @@
-WKHtmlTOX
-===========
-
-HTMLファイルをPDF/Pngにする
-
